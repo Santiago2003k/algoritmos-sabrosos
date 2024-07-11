@@ -78,3 +78,7 @@ let dobles = numeritos.map(function(numero) {
   return numero * 2;
 });
 console.log(dobles);
+// para enconcontrarlo
+let dato = 'naranja';
+let pos = fluvers.indexOf(dato);
+console.log(pos)
