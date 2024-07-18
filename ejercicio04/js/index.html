@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="guardar">
+        <label for="piedra">Agrega uno nuevo</label>
+        <input type="text" id="piedra" placeholder="piedra">
+        <input type="number" id="cantidad" placeholder="cantidad">
+        <button type="submit" onclick="guardar()">Guardar</button>
+    </div>
+    <div id="modificar" >
+      <h1>Modificar</h1>
+      <input type="text" id="jeloury" placeholder="Joya">
+      <input type="text" id="jeloury_new" placeholder="Cambiar Joya">
+      <button type="submit" onclick="modificar()">Cambiar</button>  
+    </div>
+    <br>
+    <div id="agregar">
+        <h1>Agregar nueva cantidad</h1>
+        <input type="text" id="product" placeholder="Joya a agregar cantidad">
+        <input type="number" id="num_jeloury" placeholder="Cantidad">
+        <button type="submit" onclick="inventario()">Guardar</button>
+    </div>
+    <br>
+    <div id="tabla de contenido" >
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Joyas
+                    </th>
+                            <th>
+                                Cantidad
+                            </th>
+                 </tr>      
+                    <tbody>
+                        <th id="datos"></th>
+                        <td id="amount"></td>
+                    </tbody>
+            </thead>
+        </table>
+    </div>
+</body>
+<script src="ejercicio.js">
+</script>
+</html>
